@@ -1,0 +1,84 @@
+:root {
+    padding:0;
+    margin:0;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    font-weight: bold;
+}
+body {
+    width: 100%;
+    
+}
+.plan_title {
+    color:darkslategray;
+    text-align: center;
+    font-size: 4em;
+}
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+}
+.item {
+    background-color: rgb(209, 231, 233);
+    margin-top:30px;
+    height: 500px;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+.item:nth-child(2) {
+    background-color: rgb(255, 94, 0);
+    height: 550px;
+    width: 25%;
+    flex-basis:1;
+    margin-top: 10px;
+    
+}
+
+.item:nth-child(2) .text{
+    color: rgb(194, 194, 194);
+}
+.item:nth-child(2) .title, .item:nth-child(2) a{
+    color: white;
+}
+
+.item a{
+    color: rgb(19, 67, 112);
+}
+.text {
+    font-size: 1.5em;
+    color: rgb(131, 131, 131);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pretitle {
+    font-weight: lighter;
+    font-size: 1.4em;
+    
+}
+.title {
+    font-size: 1.8em;
+    font-weight: 999;
+    color:black
+}
+.subtitle {
+    font-weight: lighter;
+}
+.button {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 16px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.grey {
+    background-color: white;
+}
+.orange {
+    background-color: rgb(235, 150, 94);
+}
+a {
+    font-style: none;
+}
